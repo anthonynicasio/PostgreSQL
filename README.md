@@ -1,18 +1,22 @@
 # SQL Projects
 
-This repository contains SQL projects demonstrating basic and advanced database operations.
+This repository contains multiple projects related to SQL and other scripting languages.
 
-# Mario Database Project
+## Bash Boilerplate Project
 
-This project demonstrates the creation of a `Mario`-themed database using SQL. It includes characters, 
-their information, associated sounds, actions, and the relationships between characters and actions.
+This project demonstrates the use of Bash commands to set up a simple website file structure, manage files, 
+and organize assets. It includes directory creation, file movement, and clean-up.
 
-## Table Structures
+- To see the full project details, visit [`bash_boilerplate.md`](bash_boilerplate/bash_boilerplate.md).
+- The project script can be found in the [`bash_boilerplate.sh`](bash_boilerplate/bash_boilerplate.sh) file.
 
-You can view detailed information about the database schema and sample data in the [`mario_database.sql`](mario_database.sql) file.
+---
 
-For a more readable overview of the table structures and sample data, check out the [Mario Tables Structure](mario_tables.md).
+## Mario Database Project
 
-## How to Use
+The Mario Database is a structured SQL project that involves creating tables for characters, their details, 
+and associated actions. It includes table creation, primary keys, foreign keys, and data insertion for a Mario-themed dataset.
 
-To recreate this database, run the SQL commands found in [`mario_database.sql`](mario_database.sql) in a PostgreSQL environment.
+For more details, check out the following files:
+- [`mario_database.sql`](mario_database/mario_database.sql): Contains SQL commands for creating the database schema and inserting sample data.
+- [`mario_tables.md`](mario_database/mario_tables.md): Provides a detailed explanation of the table structures and data.
